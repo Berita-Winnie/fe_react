@@ -31,19 +31,12 @@ const Todo = () => {
     })
   }
 
-  const toggle = (id) => {
-    setTodoList((prevTodos) => {
-      return prevTodos.map((todo) => {
-        if (todo.id === id) {
-          return {
-            ...todo,
-            isComplete: !todo.isComplete,
-          }
-          return todo
-        }
-      })
-    })
-  }
+  const toggle = (id) =>
+    setTodoList((prevTodos) =>
+      prevTodos.map((todo) =>
+        todo.id === id ? { ...todo, isComplete: !todo.isComplete } : todo
+      )
+    )
 
   useEffect(() => {
     localStorage.setItem('todos', JSON.stringify(todoList))
