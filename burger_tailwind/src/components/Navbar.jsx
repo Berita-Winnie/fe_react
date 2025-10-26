@@ -6,7 +6,7 @@ const Navbar = () => {
       <p className=" font-lexend text-2xl md:text-3xl font-medium tracking-wider">
         BURGUR
       </p>
-      <div className=" absolute left-1/2 -translate-x-1/2 hidden md:flex flex-row sm:block  font-sansita gap-10 p-2 italic text-sm">
+      <div className=" hidden md:flex sm:block absolute left-1/2 -translate-x-1/2  flex-row x font-sansita gap-10 p-2 italic text-sm">
         <Link to="/">Home</Link>
         <Link to="/menu">Menu</Link>
         <Link to="/about">About</Link>
