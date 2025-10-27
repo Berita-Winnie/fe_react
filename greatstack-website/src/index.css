@@ -1,1 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Zetta:wght@100..900&family=Outfit:wght@100..900&family=Prata&family=Sansita+Swashed:wght@300..900&display=swap');
 @import 'tailwindcss';
+@theme {
+  --font-family: Outfit;
+}
+* {
+  font-family: Outfit;
+}
