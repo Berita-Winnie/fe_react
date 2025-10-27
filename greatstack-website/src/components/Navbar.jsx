@@ -22,14 +22,14 @@ const Navbar = () => {
         <ul className="hidden md:flex gap-7 text-white ">
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            href="#Home"
             className="cursor-pointer hover:text-gray-400"
           >
             Home
           </a>
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            href="#About"
             className="cursor-pointer hover:text-gray-400"
           >
             About
