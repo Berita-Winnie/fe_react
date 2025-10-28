@@ -36,14 +36,14 @@ const Navbar = () => {
           </a>
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            href="#Projects"
             className="cursor-pointer hover:text-gray-400"
           >
             Projects
           </a>
           <a
             onClick={() => setShowMobileMenu(false)}
-            href="#Header"
+            href="#Testimonials"
             className="cursor-pointer hover:text-gray-400"
           >
             Testimonials
