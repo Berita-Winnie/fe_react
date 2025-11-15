@@ -1,9 +1,11 @@
 import React, { useState } from 'react'
 import assets from '../assets/assets'
+import TogglethemeBtn from './TogglethemeBtn'
+
 const NavBar = ({ theme, setTheme }) => {
   const [openSideBar, setOpenSideBar] = useState(false)
   return (
-    <div className="flex justify-between items-center px-4 sm:px-12 lg:px-24 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg:gray-900/70">
+    <div className="flex justify-between items-center px-4 sm:px-12 lg:px-24 py-4 sticky top-0 z-20 backdrop-blur-xl font-medium bg-white/50 dark:bg-gray-900/70">
       <img
         className="w-12 sm:w-40"
         src={theme === 'dark' ? assets.logo_dark : assets.logo}
@@ -55,6 +57,7 @@ const NavBar = ({ theme, setTheme }) => {
         </a>
       </div>
       <div className=" flex items-center gap-2 sm:gap-4 ">
+        <TogglethemeBtn theme={theme} setTheme={setTheme} />
         <img
           src={theme === 'dark' ? assets.menu_icon_dark : assets.menu_icon}
           onClick={() => setOpenSideBar(true)}
