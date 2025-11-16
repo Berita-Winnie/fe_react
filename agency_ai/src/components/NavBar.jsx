@@ -29,7 +29,7 @@ const NavBar = ({ theme, setTheme }) => {
 
         <a
           onClick={() => setOpenSideBar(false)}
-          href="#"
+          href="#header"
           className="sm:hover:border-b"
         >
           Home
