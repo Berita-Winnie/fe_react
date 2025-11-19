@@ -45,9 +45,16 @@ const OurWork = () => {
             transition={{ duration: 0.5, delay: index * 0.2 }}
             viewport={{ once: true }}
             key={index}
-            className="hover:scale-102 duration-500 transition-all cursor-pointer"
+            className=" duration-500 transition-all cursor-pointer"
           >
-            <img src={work.image} alt="" className="w-full rounded-xl" />
+            <div className="overflow-hidden rounded-xl">
+              <img
+                src={work.image}
+                alt=""
+                className="w-full rounded-xl  hover:scale-110 transition-transform duration-300 ease-in-out  "
+              />
+            </div>
+
             <h3 className="mt-3 md-2 text-lg font-semibold">{work.title}</h3>
             <p className="text-sm opacity-60 w-5/6">{work.description}</p>
           </motion.div>
