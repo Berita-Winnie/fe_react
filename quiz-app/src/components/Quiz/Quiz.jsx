@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import { useRef, useState } from 'react'
 import { data } from '../../assets/data'
 import './Quiz.css'
 const Quiz = () => {

@@ -34,3 +34,10 @@
   text-decoration: none;
   color: white;
 }
+
+@media (max-width) {
+   .title-cards{
+    margin-top: 20px;
+    margin-bottom: ;
+   } 
+}
