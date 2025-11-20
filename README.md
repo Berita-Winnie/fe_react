@@ -48,6 +48,7 @@ This is a learning-focused repo, but feedback and suggestions are always appreci
 You can reach me here:
 
 - 💌 **Email:** beritawinnie@gmail.com  
-- 💼 **LinkedIn:** https://www.linkedin.com/in/berita-winnie
+- 💼 **LinkedIn:** https://www.linkedin.com/in/winrose-berita
 
 ---
+
