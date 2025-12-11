@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 # React Practice Projects ✨💗
 
 A growing collection of various projects built as part of my journey to sharpen and refine my React and front-end development skills.  
@@ -14,19 +16,19 @@ I build, test, break things, fix things, and continuously improve my understandi
 
 ## 💕 What You’ll Find
 
-- A variety of small to medium React projects  
-- UI experiments and interactive components  
-- Practice with hooks, state, props, routing, and more  
-- Reusable patterns and cleaner code as the repo grows  
+- A variety of small to medium React projects
+- UI experiments and interactive components
+- Practice with hooks, state, props, routing, and more
+- Reusable patterns and cleaner code as the repo grows
 - Styling experiments with CSS, Tailwind, or Framer Motion
 
 ---
 
 ## 🎀 Technologies
 
-- **React**  
-- **JavaScript (ES6+)**  
-- **CSS / Tailwind CSS**  
+- **React**
+- **JavaScript (ES6+)**
+- **CSS / Tailwind CSS**
 - **Framer Motion**
 
 ---
@@ -47,8 +49,7 @@ This is a learning-focused repo, but feedback and suggestions are always appreci
 
 You can reach me here:
 
-- 💌 **Email:** beritawinnie@gmail.com  
+- 💌 **Email:** beritawinnie@gmail.com
 - 💼 **LinkedIn:** https://www.linkedin.com/in/winrose-berita
 
 ---
-
