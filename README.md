@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # React Practice Projects ✨💗
 
@@ -53,3 +53,4 @@ You can reach me here:
 - 💼 **LinkedIn:** https://www.linkedin.com/in/winrose-berita
 
 ---
+
